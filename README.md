@@ -7,17 +7,6 @@
 
 ## 設定内容
 
-- 実行コマンド
-```
-composer create-project laravel/laravel vue-laravel-template --prefer-dist`
-composer require laravel/ui
-php artisan ui vue
-npm install
-npm install --save-dev vue-router
-npm audit fix
-npm run dev
-```
-
 - カスタマイズ部分
   - `welcome.blade.php`、`ExampleComponent.vue`の削除
   - `app.blade.php`の追加、`HeaderComponent`と`router-view`のビューの構成
@@ -34,11 +23,13 @@ npm run dev
   - 以下のコマンドを叩く
   ```
   git clone https://github.com/{UserName}/{RepositoryName}
+  npm i
+  npm i -D vue-router
+  npm audit fix
+  npm run dev
   composer install
   cp .env.example .env
   php artisan key:generate
-  npm install
-  npm run dev
   php artisan serve
   ```
   - http://localhost:8000 へアクセス
