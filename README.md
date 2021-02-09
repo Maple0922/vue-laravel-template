@@ -25,7 +25,7 @@
   git clone https://github.com/{UserName}/{RepositoryName}
   npm i
   npm i -D vue-router
-  npm audit fix
+  npm audit fix --force
   npm run dev
   composer install
   cp .env.example .env
