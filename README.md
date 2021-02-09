@@ -35,7 +35,7 @@ npm run dev
   ```
   git clone https://github.com/{UserName}/{RepositoryName}
   composer install
-  cp .env.example
+  cp .env.example .env
   php artisan key:generate
   npm install
   npm run dev
