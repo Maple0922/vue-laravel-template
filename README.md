@@ -34,6 +34,9 @@ npm run dev
   - 以下のコマンドを叩く
   ```
   git clone https://github.com/{UserName}/{RepositoryName}
+  composer install
+  cp .env.example
+  php artisan key:generate
   npm install
   npm run dev
   php artisan serve
